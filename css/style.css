@@ -1,0 +1,115 @@
+* {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(0, 26, 51);
+    height: 110px;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px grey;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(0, 26, 51);
+    height: 170px;
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:30px;
+}
+
+#pizza {
+    height: 100px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#headIzq {
+    display: flex;
+    align-items: center;
+    margin:15px;
+}
+
+#headDer {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin:15px;
+}
+
+#footIzq {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    margin:15px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footDer {
+    display: flex;
+    align-items: center;
+    margin:15px;
+}
+
+.spanHead {
+    padding: 10px;
+}
+
+.principal {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    height: 350px;
+    width: 490px;
+    flex-shrink: 0;
+    position: relative;
+    margin:5px;
+}
+
+#deli {
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+}
+
+h2 {
+    position: relative;
+    color: red;
+    text-align: center;
+    top:20px;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#blanco {
+    color: white;
+}
+
+#desvioIzq {
+    left:-45px;
+}
+
+#contDer {
+    position: relative;
+    top:70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
